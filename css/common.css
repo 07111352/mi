@@ -1,0 +1,78 @@
+/*全局reset样式*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td {
+	margin:0; padding:0; border: 0;
+}
+body {
+	overflow-x:hidden;
+	background:#fff; 
+	color:#333; 
+	font-size:12px; 
+	font-family: Microsoft YaHei, tahoma, arial, Hiragino Sans GB, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+	font-weight:normal; 
+	font-size:100%; 
+}
+
+address, caption, cite, code, dfn, em, i, strong, th, var { 
+	font-style:normal; 
+	font-weight:normal;
+}
+
+a { 
+	text-decoration:none; 
+	outline:none;
+	blr:expression(this.onFocus=this.blur());
+}
+
+
+img { 
+	border:none;
+	display: block;
+	vertical-align: top; 
+}
+
+dl,ol,ul,li { 
+	list-style:none; 
+}
+
+input, textarea, select, button { 
+	font:14px Verdana,Helvetica,Arial,sans-serif; 
+}
+
+table { 
+	border-collapse:collapse; 
+}
+
+.clearfix:before,.clearfix:after{
+	display:table;
+	line-height:0;
+	content:"";
+}
+.clearfix:after{
+	clear:both;
+}
+.clear{
+	*zoon:1;
+}
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+
+.wrap{
+	width: 1226px;
+	margin: 0 auto;
+}
+
+.pr{
+	position: relative;
+}
+
+.pa{
+	position: absolute;
+}
